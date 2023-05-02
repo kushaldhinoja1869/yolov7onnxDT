@@ -11,7 +11,7 @@ from pathlib import Path
 from collections import OrderedDict,namedtuple
 import matplotlib.pyplot as plt
 cuda = False
-w = "/content/yolov7/yolov7.onnx"
+w = "yolov7-tiny.onnx"
 #Loading image for testing.
 img = cv2.imread('i1.jpg')
 
