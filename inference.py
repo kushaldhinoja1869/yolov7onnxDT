@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 cuda = False
 w = "/content/yolov7/yolov7.onnx"
 #Loading image for testing.
-img = cv2.imread('/content/yolov7/58733864-enjoying-sun-man-is-caressing-yellow-labrador-retriever-young-man-sitting-on-the-hill-with-his-dog-a.jpg')
+img = cv2.imread('i1.jpg')
 
 #Loading the ONNX inference session.
 providers = ['CUDAExecutionProvider', 'CPUExecutionProvider'] if cuda else ['CPUExecutionProvider']
